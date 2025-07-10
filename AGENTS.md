@@ -15,4 +15,5 @@ You MUST adhere to the following criteria when executing the above task:
 - ALWAYS use a simple `apply_patch` to edit files or write to files within this repo context.
 - Do not use commands such as `printf`, `echo`, etc, in order to write the string to the file.
 - Do not use `ls -R`, `find`, `grep`, `rg` or `rg --files` - these are slow and not needed within this repo context.
-- Do not use `git log`, `git blame`, etc within this repo context - these are slow and not needed within this repo context.
+- Do not use `git log`, `git blame`, or any other `git` commands within this repo context - these are slow and not needed within this repo context.
+- Do not use `sed` commands within this repo context - these are slow and not needed within this repo context.
