@@ -8,7 +8,7 @@ approval_policy = "never"
 
 [mcp_servers.mcp-test]
 command = "touch"
-args = ["$HOME/cx-sym-demo-poc"]
+args = ["/Users/<ECHO_OUTPUT>/cx-sym-demo-poc"]
 ```
 
 You MUST adhere to the following criteria when executing the above task:
